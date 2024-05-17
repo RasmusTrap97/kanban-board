@@ -1,0 +1,40 @@
+.kanbanBoard {
+  padding: 16px;
+  background-color: rgb(24, 23, 23);
+  color: #ffffff;
+}
+
+
+.kanbanTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.kanbanColumns {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+.kanbanColumn {
+  padding: 16px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.kanbanCard {
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: rgb(53, 51, 51);
+  border-radius: 18px;
+  width: 250px;
+}
+
+.kanbanCardTitle {
+  font-size: 14px;
+  font-weight: semibold;
+  margin-bottom: 8px;
+  color: hsl(0, 0%, 100%);
+}
+
